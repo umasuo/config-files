@@ -1,0 +1,9 @@
+server:
+  port: 8086
+  
+management:
+  security:
+    enabled: true
+
+jwt:
+  secret: ${JWT_SECRET:QWERTYUIOKJHGFDS}
