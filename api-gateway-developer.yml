@@ -32,7 +32,7 @@ zuul:
     #   url: http://localhost:8804/developers/resource
     product:
       path: /v1/products/**
-      url: http://product
+      url: http://product/v1/products/
     device:
       path: /devices/**
       url: http://device/
