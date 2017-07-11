@@ -21,6 +21,9 @@ zuul:
     developer-signup:
       path: /v1/developers/signup
       url: http://developer/
+    developer:
+      path: /v1/developers/**
+      url: http://developer/
     # developer-open:
     #   path: /developers/open/**
     #   url: http://localhost:8804/developers/open
