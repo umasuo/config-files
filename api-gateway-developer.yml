@@ -23,7 +23,7 @@ zuul:
       url: http://developer/
     developer:
       path: /v1/developers/**
-      url: http://developer/
+      url: http://developer/v1/developers/
     # developer-open:
     #   path: /developers/open/**
     #   url: http://localhost:8804/developers/open
