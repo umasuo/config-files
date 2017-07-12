@@ -45,6 +45,9 @@ zuul:
     report:
       path: /reports/**
       url: http://report/reports/
+    feedback:
+      path: /feedback/**
+      url: http://feedback/feedbacks/
 
 developer:
   service:
