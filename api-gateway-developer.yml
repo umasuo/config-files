@@ -42,9 +42,9 @@ zuul:
     user:
       path: /users/**
       url: http://user/
-    # report:
-    #   path: /reports/**
-    #   url: http://localhost:8811/reports
+    report:
+      path: /reports/**
+      url: http://reports/reports/
 
 developer:
   service:
