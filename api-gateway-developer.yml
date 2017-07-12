@@ -43,10 +43,10 @@ zuul:
       path: /users/**
       url: http://user/
     report:
-      path: /reports/**
+      path: /v1/reports/**
       url: http://report/reports/
     feedback:
-      path: /feedback/**
+      path: /v1/feedback/**
       url: http://feedback/feedbacks/
 
 developer:
