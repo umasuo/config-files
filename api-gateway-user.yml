@@ -1,9 +1,8 @@
 spring:
   application:
-    name: api-gateway
+    name: api-gateway-user
 
 zuul:
-  ignoredPatterns: /data-definitions/**/verify, /data-definitions/verify
   routes:
     data-center:
       path: /v1/data/**
