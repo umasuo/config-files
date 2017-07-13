@@ -44,7 +44,7 @@ zuul:
       url: http://user/v1/users/
     report:
       path: /v1/reports/**
-      url: http://report/reports/
+      url: http://report/v1/reports/
     feedback:
       path: /v1/feedback/**
       url: http://feedback/feedbacks/
