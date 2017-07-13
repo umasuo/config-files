@@ -7,7 +7,7 @@ zuul:
     data-center:
       path: /v1/data/**
       url: http://data/v1/data/
-    device:
+    device-center:
       path: /v1/devices/**
       url: http://device/v1/devices/
     file:
