@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: api-gateway
+
+zuul:
+  ignoredPatterns: /data-definitions/**/verify, /data-definitions/verify
+  routes:
+    data-center:
+      path: /v1/data/**
+      url: http://data/v1/data/
+    device:
+      path: /v1/devices/**
+      url: http://device/v1/devices/
+    file:
+      path: /v1/files/**
+      url: http://file/v1/files
+    user:
+      path: /v1/users/**
+      url: http://user/v1/users/
+    feedback:
+      path: /v1/feedback/**
+      url: http://feedback/feedbacks/
+
+auth:
+  ignored:
+    rules:
+        method: DELETE
+      - host: localhost
+        path: ^(/v1/users/validationCodes)[a-z0-9\-/]*
+        method: POST
+      - host: localhost
+        path: ^(/v1/users/signin)[a-z0-9\-/]*
+        method: POST
