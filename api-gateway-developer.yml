@@ -8,9 +8,6 @@ zuul:
     data-center:
       path: /data/**
       url: http://data
-    # data-definition:
-    #   path: /data-definitions/**
-    #   url: http://data-definition
     developer-signin:
       path: /v1/developers/signin
       url: http://developer/
@@ -24,21 +21,12 @@ zuul:
     developer:
       path: /v1/developers/**
       url: http://developer/v1/developers/
-    # developer-open:
-    #   path: /developers/open/**
-    #   url: http://localhost:8804/developers/open
-    # developer-resource:
-    #   path: /developers/resource/**
-    #   url: http://localhost:8804/developers/resource
     product:
       path: /v1/products/**
       url: http://product/v1/products/
     device:
       path: /v1/devices/**
       url: http://device/v1/devices/
-    # file:
-    #   path: /files/**
-    #   url: http://localhost:8807/files
     user:
       path: /v1/users/**
       url: http://user/v1/users/
@@ -46,8 +34,8 @@ zuul:
       path: /v1/reports/**
       url: http://report/v1/reports/
     feedback:
-      path: /v1/feedback/**
-      url: http://feedback/feedbacks/
+      path: /v1/feedbacks/**
+      url: http://feedback/v1/feedbacks/
 
 developer:
   service:
