@@ -17,8 +17,8 @@ zuul:
       path: /v1/users/**
       url: http://user/v1/users/
     feedback:
-      path: /v1/feedback/**
-      url: http://feedback/feedbacks/
+      path: /v1/feedbacks/**
+      url: http://feedback/v1/feedbacks/
 
 auth:
   ignored:
