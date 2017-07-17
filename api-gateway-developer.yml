@@ -56,14 +56,3 @@ auth:
       - host: localhost
         path: ^(/v1/developers/signout)[a-z0-9\-/]*
         method: DELETE
-
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 60000
-ribbon:
-  ConnectTimeout: 3000
-  ReadTimeout: 60000
