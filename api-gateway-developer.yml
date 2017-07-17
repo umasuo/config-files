@@ -36,6 +36,9 @@ zuul:
     feedback:
       path: /v1/feedbacks/**
       url: http://feedback/v1/feedbacks/
+    file:
+      path: /v1/files/**
+      url: http://file/v1/files/
 
 developer:
   service:
