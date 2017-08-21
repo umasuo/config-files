@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: api-gateway-admin
+
+zuul:
+  routes:
+    data-center:
+      path: /v1/data/**
+      url: http://data
+    developer:
+      path: /v1/developers/**
+      url: http://developer/v1/developers/
+    product:
+      path: /v1/products/**
+      url: http://product/v1/products/
+    device:
+      path: /v1/devices/**
+      url: http://device/v1/devices/
+    user:
+      path: /v1/users/**
+      url: http://user/v1/users/
+    report:
+      path: /v1/reports/**
+      url: http://report/v1/reports/
+    feedback:
+      path: /v1/feedbacks/**
+      url: http://feedback/v1/feedbacks/
+    file:
+      path: /v1/files/**
+      url: http://file/v1/files/
