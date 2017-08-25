@@ -3,7 +3,7 @@ spring:
     name: api-gateway
 
 zuul:
-  ignoredPatterns: /data-definitions/**/verify, /data-definitions/verify
+  ignoredPatterns: /data-definitions/**/verify, /data-definitions/verify, /v1/admin/**
   routes:
     data-center:
       path: /data/**

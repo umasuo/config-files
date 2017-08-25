@@ -8,8 +8,8 @@ zuul:
       path: /v1/data/**
       url: http://data
     developer:
-      path: /v1/developers/**
-      url: http://developer/v1/developers/
+      path: /v1/admin/developers/**
+      url: http://developer/v1/admin/developers/
     product:
       path: /v1/products/**
       url: http://product/v1/products/
