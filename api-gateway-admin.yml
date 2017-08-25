@@ -17,8 +17,8 @@ zuul:
       path: /v1/devices/**
       url: http://device/v1/devices/
     user:
-      path: /v1/users/**
-      url: http://user/v1/users/
+      path: /v1/admin/users/**
+      url: http://user/v1/admin/users/
     report:
       path: /v1/reports/**
       url: http://report/v1/reports/
