@@ -5,26 +5,26 @@ spring:
 zuul:
   routes:
     data-center:
-      path: /v1/data/**
+      path: /v1/admin/data/**
       url: http://data
     developer:
       path: /v1/admin/developers/**
       url: http://developer/v1/admin/developers/
     product:
-      path: /v1/products/**
-      url: http://product/v1/products/
+      path: /v1/admin/products/**
+      url: http://product/v1/admin/products/
     device:
-      path: /v1/devices/**
-      url: http://device/v1/devices/
+      path: /v1/admin/devices/**
+      url: http://device/v1/admin/devices/
     user:
       path: /v1/admin/users/**
       url: http://user/v1/admin/users/
     report:
-      path: /v1/reports/**
-      url: http://report/v1/reports/
+      path: /v1/admin/reports/**
+      url: http://report/v1/admin/reports/
     feedback:
-      path: /v1/feedbacks/**
-      url: http://feedback/v1/feedbacks/
+      path: /v1/admin/feedbacks/**
+      url: http://feedback/v1/admin/feedbacks/
     file:
-      path: /v1/files/**
-      url: http://file/v1/files/
+      path: /v1/admin/files/**
+      url: http://file/v1/admin/files/
