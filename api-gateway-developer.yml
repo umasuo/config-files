@@ -57,11 +57,11 @@ auth:
         path: ^(/v1/developers/signout)[a-z0-9\-/]*
         method: DELETE
       - host: localhost
-        path: ^(/developers/)[0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12}/verify\?code=[0-9a-zA-Z]{12}
+        path: ^(/v1/developers/)[0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12}/verify\?code=[0-9a-zA-Z]{12}
         method: GET
       - host: localhsot
-        path: ^(/developers/reset-password)
+        path: ^(/v1/developers/reset-password)
         method: POST
       - host: localhsot
-        path: ^(/developers/reset-password)
+        path: ^(/v1/developers/reset-password)
         method: PUT
