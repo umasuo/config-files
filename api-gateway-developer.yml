@@ -57,7 +57,7 @@ auth:
         path: ^(/v1/developers/signout)[a-z0-9\-/]*
         method: DELETE
       - host: localhost
-        path: ^(/v1/developers/)[0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12}/verify\?code=[0-9a-zA-Z]{12}
+        path: ^(/v1/developers/)[0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12}/verify
         method: GET
       - host: localhsot
         path: ^(/v1/developers/reset-password)
